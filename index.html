@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/5.3/components/buttons/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+        integrity="sha512-nYsmTdE7VwQigtyF1Jtf5HcGm0Zdf5z5nYYm5V3qWt+Al56yJhGtBn7/2QWZDkixZxhsxGLrx/VX9YiY8yVJjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>School System</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="LogoSample_ByTailorBrands (3).jpg" alt="Logo"></a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main
+        style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Riverside_High_School.jpg/2000px-Mapcarta.jpg');">
+        <!-- Hero section / Intro part -->
+        <section class="hero-section"
+            style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Riverside_High_School.jpg/2000px-Mapcarta.jpg');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+                        <h3 class="hero-title">Welcome to Green Valley</h3>
+                        <p class="hero-subtitle">We provide the best opportunities for our students, encouraging them to
+                            participate in activities and competitions beyond the classroom curriculum.</p>
+                        <a href="#" class="btn btn-outline-warning hero-btn">Register</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image"></div>
+        </section>
+        <!-- Info part -->
+        <form id="datasub">
+            <h3>Add students informations</h3>
+            <div class="inputs">
+                <input id="username" name="username" placeholder="Full name" type="text" id="name_link0" required>
+
+                <input id="usernumber" name="usernumber" placeholder="phone number" type="text" id="category_0"
+                    required>
+                <input id="usergrade" name="usergrade" placeholder="grade" type="text" id="category_0" required>
+                <input id="userDOB" name="userDOB" placeholder="Date of birth" type="date" id="link_add_0" required>
+
+                <select id="usergender" name="usergender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="inputs">
+                <input id="subinput0" type="submit" value="Add">
+            </div>
+
+        </form>
+        <br>
+        <br>
+
+        <div id="table_div">
+            <table id="table_body">
+                <tr id="tablemain">
+                    <th>Full name</th>
+                    <th>Date of birth</th>
+                    <th>gender</th>
+                    <th>phone number</th>
+                    <th>grade</th>
+                    <th>Update</th>
+                    <th>delete</th>
+                </tr>
+
+                <tbody id="tbody"></tbody>
+
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="myDIV" style="background:cadetblue; height: 4rem;">
+
+
+        <section class="text-center pt-3">
+            <p> © copyright-2023</p>
+        </section>
+        <!-- Section: Social media -->
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
