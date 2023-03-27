@@ -50,22 +50,32 @@
             <div class="hero-image"></div>
         </section>
         <!-- Info part -->
-        <form id="datasub">
-            <h3>Add students informations</h3>
+
+            <form id="datasub">
+                <h3>Add students informations</h3>
             <div class="inputs">
                 <input id="username" name="username" placeholder="Full name" type="text" id="name_link0" required>
-
-                <input id="usernumber" name="usernumber" placeholder="phone number" type="text" id="category_0"
-                    required>
-                <input id="usergrade" name="usergrade" placeholder="grade" type="text" id="category_0" required>
                 <input id="userDOB" name="userDOB" placeholder="Date of birth" type="date" id="link_add_0" required>
-
+                
                 <select id="usergender" name="usergender">
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                 </select>
-            </div>
 
+                <select id="usermajor" name="usermajor">
+                    <option value="Administration">Administration</option>
+                    <option value="IT">IT</option>
+                    <option value="Science">Science</option>
+                    <option value="Art">Art</option>
+                </select>
+                
+                <input id="usernumber" name="usernumber" placeholder="phone number" type="text" id="category_0"
+                required>
+                <input id="usergrade" name="usergrade" placeholder="grade" type="text" id="category_0" required>
+                <input id="userimg" name="userimg" placeholder="img" type="text" id="category_0" value="data:image/jpeg;base64,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" required>
+
+            </div>
+            
             <div class="inputs">
                 <input id="subinput0" type="submit" value="Add">
             </div>
@@ -74,7 +84,7 @@
         <br>
         <br>
 
-        <div id="table_div">
+        <!-- <div id="table_div">
             <table id="table_body">
                 <tr id="tablemain">
                     <th>Full name</th>
@@ -87,9 +97,15 @@
                 </tr>
 
                 <tbody id="tbody"></tbody>
-
+                
             </table>
+        </div> -->
+
+        <!-- Constructor and object task -->
+        <div id="student_card">
+          
         </div>
+        
         <br>
         <br>
         <br>
@@ -101,7 +117,7 @@
     <!-- Footer section -->
     <footer id="myDIV" style="background:cadetblue; height: 4rem;">
 
-
+        
         <section class="text-center pt-3">
             <p> © copyright-2023</p>
         </section>
